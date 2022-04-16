@@ -6,8 +6,8 @@
   --accent-color: #2196f3;
   --main-color: #ffffff;
   --transparent-color: rgba(255, 255, 255, 0.6);
-  --hero-btn-hover-color: #188ce8;
-  --button-color: #f5f4fa;
+  --btn-hover-color: #188ce8;
+  --portfolio-btn-color: #f5f4fa;
   --our-team-bg-color: #f5f4fa;
   --border-color: #eeeeee;
   --icons-color: #afb1b8;
@@ -747,7 +747,7 @@ img {
 }
 
 .btn:hover, .btn:focus {
-  background-color: var(--hero-btn-hover-color);
+  background-color: var(--btn-hover-color);
 }
 
 .portfolio__btn {
@@ -759,7 +759,7 @@ img {
   letter-spacing: inherit;
   color: var(--primary-color);
   cursor: pointer;
-  background-color: var(--button-color);
+  background-color: var(--portfolio-btn-color);
   border: none;
   border-radius: 4px;
   -webkit-transition: color var(--animation), background-color var(--animation), -webkit-box-shadow var(--animation);
