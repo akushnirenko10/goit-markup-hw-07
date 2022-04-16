@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -59,20 +59,20 @@
             <div class="container">
                 <h1 class="section__title visually-hidden">Портфолио</h1>
                 <ul class="portfolio__buttons-list list">
-                    <li class="portfolio__button">
-                        <button type="button" class="button button--current">Все</button>
+                    <li class="portfolio__buttons-item">
+                        <button type="button" class="portfolio__btn portfolio__btn--current">Все</button>
                     </li>
-                    <li class="portfolio__button">
-                        <button type="button" class="button">Веб-сайты</button>
+                    <li class="portfolio__buttons-item">
+                        <button type="button" class="portfolio__btn">Веб-сайты</button>
                     </li>
-                    <li class="portfolio__button">
-                        <button type="button" class="button">Приложения</button>
+                    <li class="portfolio__buttons-item">
+                        <button type="button" class="portfolio__btn">Приложения</button>
                     </li>
-                    <li class="portfolio__button">
-                        <button type="button" class="button">Дизайн</button>
+                    <li class="portfolio__buttons-item">
+                        <button type="button" class="portfolio__btn">Дизайн</button>
                     </li>
-                    <li class="portfolio__button">
-                        <button type="button" class="button">Маркетинг</button>
+                    <li class="portfolio__buttons-item">
+                        <button type="button" class="portfolio__btn">Маркетинг</button>
                     </li>
                 </ul>
 
@@ -217,8 +217,8 @@
                     <address>
                         <ul class="footer__list list">
                             <li class="footer__item">
-                                <a href="https://goo.gl/maps/KLnqrrv6EtDEiS7Q8" class="footer__link address">г. Киев, пр-т
-                                    Леси Украинки,
+                                <a href="https://goo.gl/maps/KLnqrrv6EtDEiS7Q8"
+                                    class="footer__link footer__link--address">г. Киев, пр-т Леси Украинки,
                                     26</a>
                             </li>
                             <li class="footer__item">
@@ -230,9 +230,9 @@
                         </ul>
                     </address>
                 </div>
-                <div class="footer__social-box">
+                <div class="footer__social-inner">
                     <h3 class="footer__subtitle">Присоединяйтесь</h3>
-                    <ul class="footer__social-items list">
+                    <ul class="footer__social-list list">
                         <li class="footer__social-item">
                             <a href="" class="footer__social-link">
                                 <svg class="footer__social-icon" width="20" height="20">
@@ -269,7 +269,7 @@
                     <h3 class="footer__subtitle">Подпишитесь на рассылку</h3>
                     <div class="footer__form-wrap">
                         <input class="footer__input" type="email" name="email" id="email" placeholder="E-mail">
-                        <button class="footer__btn" type="submit">Подписаться
+                        <button class="btn" type="submit">Подписаться
                             <svg class="footer__send-icon" width="24" height="24">
                                 <use href="./images/svg/sprite.svg#icon-send"></use>
                             </svg>

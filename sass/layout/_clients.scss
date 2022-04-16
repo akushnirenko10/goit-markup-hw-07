@@ -1,0 +1,40 @@
+.clients {
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        width: calc((100% - 5 * 30px) / 6);
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+
+        color: var(--icons-color);
+
+        border: 1px solid var(--icons-color);
+        border-radius: 4px;
+
+        transition: color var(--animation), border var(--animation);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        
+            border: 1px solid var(--accent-color);
+        }
+    }
+
+    &__icon {
+        fill: currentColor;
+    }
+}
